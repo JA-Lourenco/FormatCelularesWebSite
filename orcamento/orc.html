@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    <title>Format Celulares - Orçamento</title>
+</head>
+
+<body>
+
+    <header>
+        
+        <img class="logo" src="../assets/logo.SVG" alt="logotipo">
+
+        <nav>
+            <a href="../index.html">Página Inicial</a>
+
+            <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank" rel="external">Whatsapp</a>
+
+            <a href="https://maps.google.com/maps?q=maps&um=1&ie=UTF-8&sa=X&sqi=2&ved=2ahUKEwjKjeGD-Zf1AhW7qZUCHVrfBDMQ_AUoAXoECAEQAw" target="_blank" rel="external">Localização</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1><strong>Orçamento</strong></h1>
+
+        <form method="POST">
+            
+            <div class="datas">
+                <label>
+                    Nome completo: <input type="text" required>
+                </label>
+                
+                <label>
+                    Email: <input type="email" placeholder="exemplo@email.com" required>
+                </label>
+            </div>
+
+            <hr>
+
+            <div class="tel">
+                <label>
+                    Número de telefone: <input type="number" value="tel" placeholder="Ex: 041982821010" min="1" required>
+                </label>
+            </div>
+
+            <hr>
+
+            <div class="brand">
+                <label for="selec">Selecione a marca do modelo:</label>
+
+                <select name="model" id="selec" required>
+
+                    <option selected disabled value="sel">Selecionar</option>
+
+                    <option value="iphone">Apple</option>
+
+                    <option value="huawei">Huawei</option>
+
+                    <option value="motorola">Motorola</option>
+
+                    <option value="samsung">Samsung</option>
+
+                    <option value="realme">Realme</option>
+
+                    <option value="xiaomi">Xiaomi</option>
+
+                </select>
+            </div>
+
+            <hr>
+
+            <div class="stype">
+                <p>Qual serviço deseja realizar?</p>
+
+                <label>
+                    <input type="checkbox">Atualização
+                </label>
+
+                <label>
+                    <input type="checkbox">Desbloqueio
+                </label>
+
+                <label>
+                    <input type="checkbox">Reparo
+                </label>
+            </div>
+            
+            <hr>
+
+            <div class="details">
+                <label for="details">Mais detalhes:</label><br>
+
+                <textarea name="details" id="details" cols="40" rows="10" placeholder="Ex: Display danificado, Entrada de carregamento com mal contato, etc."></textarea>
+            </div>
+
+            <div>
+                <button type="reset" class="buttons">Limpar dados</button>
+
+                <button type="submit" class="buttons">Enviar dados</button>
+            </div>
+
+        </form>
+
+    </main>
+
+    <footer>
+
+        <div>
+            <h3 id="contact">Contato</h3>
+            
+            <a href="https://web.whatsapp.com/" target="_blank" rel="external"><abbr title="Whatsapp"><img src="../assets/whatsapp.png" alt="Whatsapp"></abbr></a>
+
+            <a href="https://www.instagram.com/" target="_blank" rel="external"><abbr title="Ir ao Instagram"><img src="../assets/instagram.png" alt="Instagram"></abbr></a>
+
+            <a href="https://www.facebook.com/" target="_blank" rel="external"><abbr title="Ir ao Facebook"><img src="../assets/facebook.png" alt="Facebook"></abbr></a>
+
+            <a href="mailto:"><abbr title="Enviar Email"><img src="../assets/mail.png" alt="Email"></abbr></a>
+        </div>
+
+        <div id="address">
+            <h3>Endereço</h3>   
+            
+            <p>Rua Fictícia, Nº 00 <br>Bairro Fictício <br>CEP 00000-000</p>
+        </div>
+    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31754308.356149826!2d-69.6865109274439!3d-13.702797008748323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9c59c7ebcc28cf%3A0x295a1506f2293e63!2sBrasil!5e0!3m2!1spt-BR!2sbr!4v1641427982549!5m2!1spt-BR!2sbr" width="350" height="280" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </footer>
+
+    <div class="dev">
+        Desenvolvido por JA Lourenço | <a href="https://github.com/JA-Lourenco" target="_blank" rel="external">Github</a> | <a href="https://www.linkedin.com/in/ja-lourenco/" target="_blank" rel="external">LinkedIn</a>
+    </div>
+
+</body>
+
+</html>

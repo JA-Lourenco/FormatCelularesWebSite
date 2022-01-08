@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Merienda:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Merienda', cursive;
+}
+
+body{
+    text-align: center;
+}
+
+header{ 
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    background-color: #9ee7ff;
+}
+
+.logo{
+    width: 70px;
+    padding: 10px;
+    border-bottom: 0.5px solid black;
+}
+
+nav a{
+    margin-left: 25px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px black;
+}
+
+nav a:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 5px white;
+}
+
+h1{
+    margin: auto;
+    margin-top: 20px;
+    font-size: 60px;
+    padding: 5px;
+    max-width: 550px;
+    border-bottom: 0.5px solid black;
+}
+
+#intro{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#intro img{
+    max-width: 250px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 25px;
+}
+
+#intro p{
+    text-align: justify;
+    max-width: 28%;    
+}
+
+.b1p{    
+    margin: auto;
+    margin-top: 50px;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    border-radius: 50px;
+    background-color: #9ee7ff;
+    box-shadow: 2px 2px 5px black;
+}
+
+.b1p:hover{
+    width: 400px;
+}
+
+.b1p button{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+}
+
+.b1p button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 5px white;
+}
+
+h2{
+    margin: auto;
+    margin-top: 50px;
+    font-size: 250%;
+    border-top: 2px dashed #9ee7ff;
+}
+
+.services{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px dashed #9ee7ff;
+    padding-bottom: 25px;
+}
+
+h4{
+    font-size: 150%;
+    padding-bottom: 10px;
+}
+
+#att h4{
+    text-shadow: 2px 2px 5px #9ee7ff;
+}
+
+#unlock h4{
+    text-shadow: 2px 2px 5px #228b22;
+}
+
+#repair h4{
+    text-shadow: 2px 2px 5px #ffa500;
+}
+
+#att img{
+    width: 400px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px #87ceeb;
+}
+
+#unlock img{
+    width: 400px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px #228b22;
+}
+
+#repair img{
+    width: 400px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px #ffa500;
+}
+
+#att p{
+    margin: auto;
+    padding: 5px;
+    text-align: justify;
+    width: 50%;
+    background-color: #87ceeb;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#unlock p{
+    margin: auto;
+    padding: 5px;
+    text-align: justify;
+    width: 50%;
+    background-color: #8fbc8f;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#repair p{
+    margin: auto;
+    padding: 5px;
+    text-align: justify;
+    width: 50%;
+    background-color: #ffa500;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+footer{
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    background-image: linear-gradient(white, #9ee7ff);
+    border-bottom: 2px solid black;
+}
+
+h3{
+    padding: 10px;
+}
+
+footer img{
+    padding: 20px;
+    width: 50px;
+}
+
+#address p{
+    padding: 20px;
+}
+
+iframe{
+    border-radius: 15px;
+}
+
+.dev{
+    font-family: 'Croissant One', cursive;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.dev a{
+    text-decoration: none !important;
+    font-family: 'Croissant One', cursive;
+    border-bottom: 2px solid black;
+}
+
+.dev a:visited{
+    color: black;
+}
+
+@media screen and (max-width: 1250px) {
+
+    .services{
+        display: block;
+    }
+
+    #att, #unlock{
+        margin-bottom: 30px;
+    }
+
+    #att img, #unlock img, #repair img{
+        width: 600px;
+    }
+
+    #att p, #unlock p, #repair p{
+        margin-top: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 850px) {
+
+    .services{
+        display: block;
+    }
+
+    main h2{
+        font-size: 30px;
+    }
+
+    #att img, #unlock img, #repair img, #att p, #unlock p, #repair p{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .services h4{
+        font-size: 18px;
+    }
+
+    footer img{
+        /* display: block; */
+        width: 35px;
+        padding: 5px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    nav a{
+        display: block;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 40px;
+        max-width: 85%;
+    }
+
+    #intro{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    #intro img{
+        max-width:30%;
+    }
+
+    #intro p{
+        margin: auto;
+        margin-top: 10px;
+        max-width: 85%;
+    }
+
+    #att img, #unlock img, #repair img, #att p, #unlock p, #repair p{
+        width: 85%;
+        margin-bottom: 20px;
+    }
+
+    footer{
+        display: block;
+    }
+
+    #address p{
+        padding: 0;
+    }
+
+    iframe{
+        width: 95%;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    nav a{
+        display: block;
+        margin: 10px;
+        padding: 10px;
+        max-width: 65%;
+        font-size: 90%;
+    }
+
+    h1{
+        font-size: 35px;
+        max-width: 85%;
+    }
+
+    #intro{
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    #intro img{
+        max-width:40%;
+    }
+
+    #intro p{
+        margin: auto;
+        margin-top: 10px;
+        max-width: 95%;
+    }
+
+    .b1p{
+        width: 50%;
+    }
+
+    .b1p:hover{
+        width: 85%;
+    }
+
+    .services{
+        display: block;
+    }
+
+    main h2{
+        font-size: 30px;
+    }
+
+    #att img, #unlock img, #repair img, #att p, #unlock p, #repair p{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .services h4{
+        font-size: 18px;
+    }
+
+    footer{
+        display: block;
+    }
+
+    footer img{
+        width: 40px;
+        padding: 10px;
+    }
+
+    #address p{
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    iframe{
+        width: 95%;
+        padding: 10px;
+    }
+
+    .dev{
+        font-size: 70%;
+    }
+}
