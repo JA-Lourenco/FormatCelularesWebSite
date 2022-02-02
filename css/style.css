@@ -221,7 +221,7 @@ iframe{
 }
 
 .dev a{
-    text-decoration: none !important;
+    text-decoration: none;
     font-family: 'Croissant One', cursive;
     border-bottom: 2px solid black;
 }
